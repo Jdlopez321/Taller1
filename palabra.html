@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Calculadora</title>
+</head>
+<body>
+        
+    <header>
+        <div class="contenedor">
+            <div id="header">
+                <ul class="nav">
+                    <ul class="nav">
+
+                        <li style="--clr:yellow">
+                        <a href="palabra.html" data-text="&nbsp;Palabra">&nbsp;Palabra&nbsp;</a>
+    
+                        <li style="--clr:yellow">
+                        <a href="temperatura.html" data-text="&nbsp;Temperatura">&nbsp;Temperatura&nbsp;</a>
+     
+                        <li style="--clr:yellow">
+                        <a  href="triangulo.html" data-text="&nbsp;Triangulo">&nbsp;Triangulo&nbsp;</a>
+
+                        <li style="--clr:yellow">
+                        <a  href="vrInstructor.html" data-text="&nbsp;Instructores">&nbsp;Instructores&nbsp;</a>
+
+                        <li style="--clr:yellow">
+                            <a  href="figuras.html" data-text="&nbsp;Figuras">&nbsp;Figuras&nbsp;</a>
+
+                        <li style="--clr:yellow">
+                        <a  href="formulario.html" data-text="&nbsp;formulario">&nbsp;Formulario&nbsp;</a>
+                                         
+            </div>
+        </div>
+    </header>
+
+        <section id="contenido">
+            <section id="box">
+                <div class="form-box">
+                    <h1>Palabras</h1>
+                    
+                    <form action="" id="form">
+                        <label for="palabra" id="label">Ingresa una palabra</label>
+                            <input type="text" id="palabra">
+                        <div class="opcion">
+                            <select name="metodos" id="metodos">
+                                <option selected>Seleccione una operación</option>
+                                <option value="1">Mustrame la longitud</option>
+                                <option value="2">Conviertelo a mayuscula</option>
+                                <option value="3">Conviertelo en minuscula</option>
+                                <option value="4">Extraeme el primer caracter</option>
+                            </select>
+                        </div>
+                        
+                
+                        <button type="submit" onclick="palabras()" id="btn">Enviar</button>
+                    </form>
+                </div>
+
+            </section>
+        </section>
+    </div>
+    
+
+    <script src="js/palabra.js"></script>
+</body>
+</html>
